@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td,
+th {
+  border: 1px solid rgb(200, 200, 200);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: #2b1055;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: #2b1055;
+}
+
+tr:nth-child(odd) td {
+  background-color: #2b1055;
+}
+
+caption {
+  padding: 10px;
+}
